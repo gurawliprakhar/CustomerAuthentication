@@ -1,0 +1,17 @@
+<servlet>
+    <servlet-name>CustomerCreationServlet</servlet-name>
+    <servlet-class>com.Customer.CustomerCreationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CustomerCreationServlet</servlet-name>
+    <url-pattern>/createCustomer</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CustomerUpdateServlet</servlet-name>
+    <servlet-class>com.Customer.CustomerUpdateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CustomerUpdateServlet</servlet-name>
+    <url-pattern>/updateCustomer</url-pattern>
+</servlet-mapping>
